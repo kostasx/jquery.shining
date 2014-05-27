@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery | Shining Effect Plugin</title>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,200,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <style>* { font-family: 'Raleway', sans-serif; }</style>
+  <link rel="stylesheet" href="jquery.shining.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <style>
+	body {
+		background-color: black;
+		color: white;
+	}
+
+	h1 {
+		margin: 100px auto;
+		text-align: center;
+		font-weight: 900;
+		font-size: 48px;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+
+<h1 id="text" style="color: #ddd;">ANIMATING TITLES</h1>
+
+<script src="jquery.shining.js"></script>
+<script>
+
+	$(document).ready(function() {
+
+	    $("#text").click(  
+
+	    	function() { $(this).shineText(); }
+		);
+
+});
+
+</script>
+</body>
+</html>
