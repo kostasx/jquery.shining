@@ -1,1 +1,1 @@
-Demo at: http://www.htdocs.gr/jquery/shining
+[Demo here](http://kostasx.github.io/jQuery-Experiments/TextShining/)
